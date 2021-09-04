@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+      body {
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: auto;
+        scroll-behavior: smooth;
+            background-image: url('https://bit.ly/3xUeC88');
+            background-repeat: no-repeat;
+            background-attachment: fixed;  
+            background-size: cover;
+            background-blend-mode: screen;
+            width:auto;
+            margin-bottom:5px;
+            font-size: 11px;
+            scroll-behavior: smooth;
+      }
+
+      nav{
+        height:45px;
+        background-color:#008ac3;
+        width:auto;
+        border-radius:15px;
+        border-style:dotted dashed solid double;
+        margin-top: 15px;
+        margin-bottom:5px
+      }
+      nav ul{
+        list-style:none;
+        padding-left:0;
+        display:flex;
+        justify-content:center;
+        justify-content:space-around;
+        font-size: 18px;
+        margin-top:-1px;
+        margin-bottom:25px;
+        padding-top:10px;
+        background-color:#ffffff00;
+        font-family:barlow;
+      }
+      nav li:hover {
+        background-color:skyblue;
+        transition: background 1000ms ease;
+      }
+      nav a {
+        text-decoration-style:dotted;
+        color:black;
+        display:block;
+      }
+      
+      h1 {
+        font-weight: 400;
+        font-size: 30px;
+        margin: 5px;
+      }
+      
+      h2 {
+        font-weight: 100;
+        font-size: 18px;
+        text-transform: capitalize;
+        margin: 0;
+      }
+      
+      img {
+        display: block;
+        width: 100%;
+      }
+      
+      main {
+        max-width: 900px;
+        margin: auto;
+        box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.4),
+          -30px 0px 40px rgba(0, 0, 0, 0.4);
+      }
+      
+      #landing {
+        background: #fff;
+      }
+      
+      #landing-text {
+        display: flex;
+        flex: 0 1 40vw;
+        height: 50vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-right: 1rem;
+        padding-left: 1rem;
+      }
+      
+      #landing-text h2 {
+        color: #888;
+      }
+      #landing-image {
+        background: url(https://uni.cf/3mhwLuy);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50vh;
+        flex: 0 1 60vw;
+        margin: 0;
+      }
+      .caption{
+        font-size: 30px;
+        
+      }
+      #yearlyplan{
+        text-align:center;
+        scroll-behavior: smooth;
+      }
+      h3{
+        font-size: 30px;
+        text-align: center;
+        border-left: dotted 1px #222;
+        border-right: dotted 1px #222;
+        display: inline-block;
+        padding-right: 1rem;
+        padding-left: 1rem;
+      }
+      .caption p{
+        font-size:27px;
+        color: #222222;
+      }
+      iframe{
+        display: block;
+        width: 100%;
+      }
+      #members{
+        font-size:25px;
+        list-style:square;
+        text-align:center;
+      }
+      
+      main{
+        scroll-behavior: smooth;
+      }
+      
+      .btn:hover {
+        background: #f4f4f4;
+      }
+      
+      #header {
+        padding: 1.5rem;
+        text-align: center;
+        background: #333;
+        color: #fff;
+      }
+      
+      #header h2 {
+        border-left: dotted 1px #fff;
+        border-right: dotted 1px #fff;
+        display: inline-block;
+        padding-right: 1rem;
+        padding-left: 1rem;
+      }
+      h4{
+        font-size:15px;
+        margin:0px;
+        margin-bottom:10px;
+      }
+      
+      .caption {
+        padding: 0.8rem;
+        text-align: center;
+      }
+      
+      footer {
+        text-align: center;
+        padding: 2rem 1rem;
+        margin: auto;
+        color:black;
+        font-size:17px;
+        background: #008ac3;
+        width:100%;
+       }
+      
+      footer h3 {
+        font-size: 3rem;
+        margin-bottom: 0;
+        color:#222;
+        border-left: dotted 1px #333;
+        border-right: dotted 1px #333;
+        display: inline-block;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        
+      }
+      #qr img{
+        width:100px;
+        height:100px;
+        align-content:left;
+        margin:0px;
+        margin-top:10px;
+        margin-left: 143px;
+      }
+      #contact h4{
+        font-size: 23px;
+        color:#222;
+      }
+      #contact p{
+        font-size:20px;
+        color:#222;
+      }
+      h5{
+        text-align: right;
+        font-size:15px;
+        text-align:bottom;
+      }
+      #yearlyplan p{
+              text-transform: uppercase;
+              text-align:center;
+              font-size:30px;
+              line-height:auto;
+              font-style:bold;     
+      }
+      * {box-sizing: border-box}
+      #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 15px;
+        right: 20px;
+        z-index: 99;
+        font-size: 13px;
+        border: none;
+        outline: none;
+        background-color:black;
+        color: white;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 16px;
+      }
+      
+      #myBtn:hover {
+        background-color: #777777;
+        transition: background 0.8s ease;
+      }
+      
+      .dot-container {
+          text-align: center;
+          padding: 20px;
+          background: skyblue;
+      }
+      
+      /* The dots/bullets/indicators */
+      .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #999999;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.8s ease;
+      }
+      
+      /* Add a background color to the active dot/circle */
+      .active, .dot:hover {
+        background-color: #666666;
+      }
+      
+      #yearlyplan {
+        position: relative;
+        background:#1CABE2;
+      }
+      /* Slides */
+      .mySlides {
+        display: none;
+        padding: 20px;
+        text-align: center;
+        margin: 0px;
+      }
+      
+      
+      
+      /* Screen Sizes 500px and Up */
+      @media (min-width: 500px) {
+        #landing {
+          display: flex;
+          height: 100%;
+        }
+      
+        #landing-text {
+          height: 100vh;
+        }
+      
+        #landing-image {
+          height: 100vh;
+        }
+      }
+      html{
+        scroll-behavior: smooth;
+      }
+      
+      /* Screen Sizes 700px and Up */
+      @media (min-width: 700px) {
+        .btn {
+          padding: 1rem 3rem;
+        }
+      }
+
+  
